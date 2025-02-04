@@ -4,7 +4,8 @@
   "description": "Add reviewers and manage pull requests when they are opened.",
   "main": "src/index.js",
   "scripts": {
-    "build": "npx tsc"
+    "build": "npx ncc build src/index.ts -o dist",
+    "build_old": "npx tsc"
   },
   "author": "Jhon Manuel Angulo Moncada <jhon.angulo@finkargo.com>",
   "license": "ISC",
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.13.1",
+    "@vercel/ncc": "^0.38.3",
     "typescript": "^5.7.3"
   }
 }
