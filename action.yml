@@ -1,0 +1,12 @@
+name: "Assign Reviewers Action"
+description: "Add reviewers and manage pull requests when they are opened."
+author: "Jhon Manuel Angulo Moncada"
+
+inputs:
+  name:
+    description: "Name of the person"
+    required: true
+
+runs:
+  using: "node22"
+  main: "dist/index.js"

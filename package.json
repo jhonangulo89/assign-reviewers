@@ -1,0 +1,19 @@
+{
+  "name": "assign-reviewers",
+  "version": "1.0.0",
+  "description": "Add reviewers and manage pull requests when they are opened.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "author": "Jhon Manuel Angulo Moncada <jhon.angulo@finkargo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  }
+}
