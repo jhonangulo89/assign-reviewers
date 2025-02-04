@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: tu-usuario/my-github-action@v1
+      - uses: jhonangulo89/assign-reviewers@v1
         with:
-          name: "ChatGPT"
+          name: "Jhon Angulo"
 
 ```
