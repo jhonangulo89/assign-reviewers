@@ -3,10 +3,17 @@ description: "Add reviewers and manage pull requests when they are opened."
 author: "Jhon Manuel Angulo Moncada"
 
 inputs:
-  name:
-    description: "Name of the person"
+  github-token:
+    description: "GitHub Token"
+    required: true
+  chapter-lead:
+    description: "GitHub user of the chapter lead"
+    required: true
+  technical-leads:
+    description: "List of the GitHub user technical leads"
     required: true
 
 runs:
   using: "node20"
   main: "dist/index.js"
+
